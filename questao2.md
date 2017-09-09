@@ -1,7 +1,7 @@
 <meta charset="UTF-8">
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 # Questão 2: Seja A a matriz de adjacências de um grafo G e k um número natural qualquer. O que representam as entradas da matriz A<sup>k</sup>? Demonstre.
 
 A matriz de adjacência A existe para demonstrar a conexão, ou não, entre vértices de um grafo. Ela funciona da seguinte forma: no espaço A<sub>ij</sub> tem-se a representação de conexão entre os vértices v<sub>i</sub> e v<sub>j</sub>. Se na matriz de adjacência A, o espaço A<sub>ij</sub> tiver seu valor igual a 1, isso diz que existe uma conexão entre os vértices em questão. Esta anotação serve para verificar a conexão de qualquer vértice até qualquer vértice, desde que ambos existam no grafo. Isto inclui a verificação de um vértice para si mesmo.
